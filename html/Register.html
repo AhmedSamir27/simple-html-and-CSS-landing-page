@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/Screenshot 2024-09-08 005308.png">
+    <link rel="stylesheet" href="/css/register.css">
+    <title>Register</title>
+</head>
+<body>
+    <header>Member Registration</header>
+    <main>
+        <form method="post" action="profile.html">
+            <div class="data-entry">
+                <input type="text" id="name" placeholder="Name" required>
+            <br>
+            <br>
+            <input type="number" placeholder="Age" id="age" required>
+            <br>
+            <br>
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+            <br>
+            <br>
+            <input type="email" id="email" required placeholder="Email">
+            <br>
+            <br>
+            <input type="password" id="pass" required minlength="8" placeholder="Password">
+            <br>
+            <br>
+            </div>
+            <div class="radio">
+                <input type="radio"  name="gender" value="male" required id="male" class="male"> 
+                <label for="male" class="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" class="female">
+                <label for="female" class="female">Female</label>
+            </div>
+            
+            <br>
+            <br>
+            <div class="buttoms"><input type="reset" value="Reset" class="reset">
+                <input type="submit" value="Create Account" class="submit">  </div>
+            
+    </main>
+    
+</body>
+</html>

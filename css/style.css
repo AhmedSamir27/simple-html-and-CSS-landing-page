@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial,sans-serif;
+    background-color: rgba(255, 255, 255, 0.769);
+}
+
+header{
+   
+    height: fit-content;
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+    line-height: 36px;
+
+}
+header .head{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgba(66, 22, 169, 0.957);
+}
+
+nav{
+    background-color: rgba(183, 187, 189, 0.192);
+    height: fit-content;
+    padding: 27px;
+    text-align: center;
+    word-spacing: 13px;
+   
+}
+
+nav a{
+    color: rgba(255, 255, 255, 0.769);
+    padding: 12px;
+  background-color:rgba(66, 22, 169, 0.895);
+    text-decoration: none;
+    border: none;
+    border-radius: 500%;
+    box-shadow: 0px 0px 10px 1px rgba(5, 101, 28, 0.37);
+   
+}
+
+main{
+    height: fit-content;
+    padding: 20px ;
+    margin: 0px 162px 0px 162px
+}
+main p{
+    line-height: 27px;
+    word-spacing: 3px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.849);
+}
+
+section{
+    height: fit-content;
+    padding: 27px;
+    
+}
+
+section .about h1{
+    color: rgba(66, 22, 169, 0.957);
+    font-size: 30px;
+    line-height: 6vh;
+    text-align: center;
+    
+}
+section .about p{
+    font-size: 18px;
+    line-height: 3vh;
+    text-align: center;
+    padding: 3px 158px;
+    margin: 19px;
+    color: rgba(0, 0, 0, 0.849);
+    
+}
+
+
+
+
+section .courses h1{
+
+    color: rgba(66, 22, 169, 0.957);
+    font-size: 30px;
+    line-height: 6vh;
+    text-align: center;
+}
+
+section .courses .front-end {
+    height: fit-content;
+    padding: 0px 0px;
+    margin: 0px 0px 0px 30vw;
+    width: 9vw;
+}
+
+section .courses .basics {
+    height: fit-content;
+    padding: 0px 0px;
+   margin: -21.7vh 0px 0px 62vw
+    
+}
+
+
+section .courses .front-end h3 {
+    color: rgba(66, 22, 169, 0.957);
+    font-size: 20px;
+    line-height: 5vh;
+    
+}
+section .courses .basics h3 {
+    color: rgba(66, 22, 169, 0.957);
+    font-size: 20px;
+    line-height: 5vh;
+    
+}
+section .courses ul{
+
+    line-height: 25px;
+}
+section .courses .front-end button{
+    color: rgba(255, 255, 255, 0.769);
+    background-color:rgba(66, 22, 169, 0.895);
+    border: none;
+    border-radius: 15%;
+    padding: 15px 30px ;
+   margin: -9px -26px 0px;
+}
+section .courses .basics button{
+    color: rgba(255, 255, 255, 0.769);
+    background-color:rgba(66, 22, 169, 0.895);
+    border: none;
+    border-radius: 15%;
+    padding: 15px 30px ;
+   margin: -9px -18px 0px;
+}
+
+footer a{
+
+height: fit-content;
+font-size: 40px;
+color: rgb(6, 6, 176);
+padding: 0px;
+
+
+}
+footer p{
+
+    height: fit-content;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    }
